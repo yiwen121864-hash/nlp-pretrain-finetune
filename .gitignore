@@ -23,3 +23,11 @@ outputs/checkpoints/
 # 系统
 .DS_Store
 Thumbs.db
+
+# 报告/答辩文档（含个人信息，不公开）
+report/
+reports/
+*.docx
+*.pptx
+*.doc
+*.pdf
