@@ -1,0 +1,48 @@
+{
+  "accuracy": 0.8358,
+  "precision": 0.8560574081891094,
+  "recall": 0.8086124401913876,
+  "f1": 0.8316588066434284,
+  "confusion_matrix": [
+    [
+      2151,
+      341
+    ],
+    [
+      480,
+      2028
+    ]
+  ],
+  "classification_report": {
+    "negative": {
+      "precision": 0.8175598631698974,
+      "recall": 0.8631621187800963,
+      "f1-score": 0.8397423384735506,
+      "support": 2492.0
+    },
+    "positive": {
+      "precision": 0.8560574081891094,
+      "recall": 0.8086124401913876,
+      "f1-score": 0.8316588066434284,
+      "support": 2508.0
+    },
+    "accuracy": 0.8358,
+    "macro avg": {
+      "precision": 0.8368086356795034,
+      "recall": 0.8358872794857419,
+      "f1-score": 0.8357005725584895,
+      "support": 5000.0
+    },
+    "weighted avg": {
+      "precision": 0.8368702317515341,
+      "recall": 0.8358,
+      "f1-score": 0.8356876389075613,
+      "support": 5000.0
+    }
+  },
+  "roc_auc": 0.9189863704204331,
+  "n_samples": 5000,
+  "mode": "frozen",
+  "checkpoint": "E:\\自然语言处理\\课程设计_实验一_预训练微调\\outputs\\checkpoints\\frozen_best.pt",
+  "test_size": 5000
+}

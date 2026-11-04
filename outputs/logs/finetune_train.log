@@ -1,0 +1,32 @@
+======================================================================
+训练模式：finetune
+epochs=2, batch_size=32, lr=2e-05, max_len=256, seed=42
+使用 GPU：NVIDIA GeForce RTX 4060 Laptop GPU（显存 8.0 GB）
+PyTorch 2.4.1+cu121 | CUDA available=True
+预训练模型：distilbert-base-uncased
+数据准备完成：train=20000, val=4902，用时 3s
+可训练参数：66,364,418
+
+Epoch 1/2
+    epoch 1 step 100/625 | loss 0.5770 | acc 0.6606
+    epoch 1 step 200/625 | loss 0.4497 | acc 0.7584
+    epoch 1 step 300/625 | loss 0.4007 | acc 0.7982
+    epoch 1 step 400/625 | loss 0.3643 | acc 0.8229
+    epoch 1 step 500/625 | loss 0.3440 | acc 0.8370
+    epoch 1 step 600/625 | loss 0.3281 | acc 0.8468
+  train loss 0.3250 | train acc 0.8485 | val loss 0.2353 | val acc 0.9029 | val F1 0.8999 | 2m 17s
+  [保存] 目前最佳模型：E:\自然语言处理\课程设计_实验一_预训练微调\outputs\checkpoints\finetune_best.pt（val F1=0.8999）
+
+Epoch 2/2
+    epoch 2 step 100/625 | loss 0.1859 | acc 0.9291
+    epoch 2 step 200/625 | loss 0.1797 | acc 0.9322
+    epoch 2 step 300/625 | loss 0.1775 | acc 0.9336
+    epoch 2 step 400/625 | loss 0.1804 | acc 0.9334
+    epoch 2 step 500/625 | loss 0.1798 | acc 0.9340
+    epoch 2 step 600/625 | loss 0.1771 | acc 0.9342
+  train loss 0.1766 | train acc 0.9345 | val loss 0.2314 | val acc 0.9127 | val F1 0.9128 | 2m 17s
+  [保存] 目前最佳模型：E:\自然语言处理\课程设计_实验一_预训练微调\outputs\checkpoints\finetune_best.pt（val F1=0.9128）
+
+训练完成：共 4m 35s，最佳 epoch=2，val F1=0.9128
+历史记录：E:\自然语言处理\课程设计_实验一_预训练微调\outputs\logs\finetune_history.json
+训练曲线：E:\自然语言处理\课程设计_实验一_预训练微调\outputs\figures\finetune_curves.png

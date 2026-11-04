@@ -1,0 +1,7 @@
+scratch test classification report
+
+             precision    recall        f1   support
+negative        0.8343    0.8483    0.8412      2492
+positive        0.8467    0.8325    0.8396      2508
+macro avg       0.8405    0.8404    0.8404      5000
+weighted avg    0.8405    0.8404    0.8404      5000

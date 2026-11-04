@@ -1,0 +1,4 @@
+﻿mode,model,trainable_params,total_params,train_seconds,best_epoch,accuracy,precision,recall,f1,roc_auc
+scratch,Scratch Transformer,2990082,2990082,19.0,3,0.8404,0.8467,0.8325,0.8396,0.9227
+frozen,DistilBERT (frozen),1538,66364418,133.4,3,0.8358,0.8561,0.8086,0.8317,0.919
+finetune,DistilBERT (fine-tuned),66364418,66364418,274.6,2,0.914,0.9176,0.9103,0.9139,0.9729

@@ -1,0 +1,20 @@
+======================================================================
+测试集评估：frozen
+加载模型：E:\自然语言处理\课程设计_实验一_预训练微调\outputs\checkpoints\frozen_best.pt（epoch=3, val F1=0.8319）
+
+测试结果（5000 条）：
+  Accuracy  : 0.8358
+  Precision : 0.8561
+  Recall    : 0.8086
+  F1        : 0.8317
+  ROC-AUC   : 0.9190
+  Confusion : [[2151, 341], [480, 2028]]
+
+典型错误样例（按置信度排序）：
+  true=negative pred=positive prob=0.9844 | I saw Winnie's Heffalump a couple of days ago. A nice story based on well known characters created by A.A.Milne. Although Winnie, Piglet, Tigger and Rabbit are all present in this 
+  true=negative pred=positive prob=0.9798 | This is a pretty simplistic romance. Girl finds boy, girl loves boy, girl loses boy, girl finds boy. Colleen Moore is the outstanding ingredient in this recipe, delivering a wonder
+  true=negative pred=positive prob=0.9708 | Sorry to disagree with you, but I found the DKC series to be quite engaging. So much so that I invested in the SNES system and my own copies of the games. This is, mind you, almost
+  true=positive pred=negative prob=0.0351 | Without going into any details of a good...if a somewhat provocative...TV movie, there seems to be a consensus among the users that there is "no one to blame here". I disagree. Yes
+  true=negative pred=positive prob=0.9624 | The first time I saw this film it was with this cute girl I was attracted to. we had a lot of fun laughing at it and generally making fun. So my impression was that it was terrible
+
+结果文件：E:\自然语言处理\课程设计_实验一_预训练微调\outputs\predictions\frozen_test_metrics.json

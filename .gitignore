@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# 大数据文件：虚拟环境缓存、数据、模型、检查点
+_cache/
+data/
+models/
+outputs/checkpoints/
+*.pt
+*.pkl
+*.parquet
+
+# 系统
+.DS_Store
+Thumbs.db

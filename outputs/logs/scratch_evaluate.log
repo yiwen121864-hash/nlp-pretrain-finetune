@@ -1,0 +1,20 @@
+======================================================================
+测试集评估：scratch
+加载模型：E:\自然语言处理\课程设计_实验一_预训练微调\outputs\checkpoints\scratch_best.pt（epoch=3, val F1=0.8483）
+
+测试结果（5000 条）：
+  Accuracy  : 0.8404
+  Precision : 0.8467
+  Recall    : 0.8325
+  F1        : 0.8396
+  ROC-AUC   : 0.9227
+  Confusion : [[2114, 378], [420, 2088]]
+
+典型错误样例（按置信度排序）：
+  true=positive pred=negative prob=0.0116 | My sisters and my cousin(female) forced me to see this chick movie. Its not the kind of movie I would prefer to see, but it really wasn't that bad. I wouldn't want to see this movi
+  true=negative pred=positive prob=0.9884 | i didn't hate this one. i just couldn't adapt to the story. it didn't really grab me. Michael Mann is a very good director but i have to disagree with his methods in this. i'm also
+  true=negative pred=positive prob=0.9859 | I really enjoyed the film. It was really cheesy at times. (They destroy the villain with hair driers--but where are they plugged in?) It's a unique film though, and I enjoyed the a
+  true=positive pred=negative prob=0.0142 | Citizen Kane....The Godfather Part II....D'Urville Martin's Dolemite. This is the single greatest piece of celluloid ever created and unleashed upon humanity. Rudy Ray Moore, in a 
+  true=negative pred=positive prob=0.9832 | I saw Bogard when it was released in the 70s. It was one of those pictures that received an X rating for violence. We snuck into our local grindhouse, and saw it anyway. Pretty goo
+
+结果文件：E:\自然语言处理\课程设计_实验一_预训练微调\outputs\predictions\scratch_test_metrics.json

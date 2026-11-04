@@ -1,0 +1,7 @@
+finetune test classification report
+
+             precision    recall        f1   support
+negative        0.9104    0.9177    0.9141      2492
+positive        0.9176    0.9103    0.9139      2508
+macro avg       0.9140    0.9140    0.9140      5000
+weighted avg    0.9140    0.9140    0.9140      5000

@@ -1,0 +1,20 @@
+======================================================================
+测试集评估：finetune
+加载模型：E:\自然语言处理\课程设计_实验一_预训练微调\outputs\checkpoints\finetune_best.pt（epoch=2, val F1=0.9128）
+
+测试结果（5000 条）：
+  Accuracy  : 0.9140
+  Precision : 0.9176
+  Recall    : 0.9103
+  F1        : 0.9139
+  ROC-AUC   : 0.9729
+  Confusion : [[2287, 205], [225, 2283]]
+
+典型错误样例（按置信度排序）：
+  true=negative pred=positive prob=0.9970 | I saw Winnie's Heffalump a couple of days ago. A nice story based on well known characters created by A.A.Milne. Although Winnie, Piglet, Tigger and Rabbit are all present in this 
+  true=positive pred=negative prob=0.0039 | We just saw this film previewed before release at the Norfolk (VA) Film Forum, and there was general agreement on two matters: There were excellent performances in a first rate dra
+  true=positive pred=negative prob=0.0041 | Despite some really scenic locations in the orient and some sporadically energetic music by Franco Micalizzi, this film doesn't quite reach the level of Joe D'Amato's similar effor
+  true=positive pred=negative prob=0.0042 | Stupidly beautiful. This movie epitomizes the 'so bad it's good' genre of films. The only two talents in it are Richard Boone and Joan van Ark, and only Boone is any good. It's kin
+  true=positive pred=negative prob=0.0048 | I just saw this movie in a sneak preview and before reading my comment you have to know that it is very subjective because I love Techno, Trance, Club, House and music like that. T
+
+结果文件：E:\自然语言处理\课程设计_实验一_预训练微调\outputs\predictions\finetune_test_metrics.json

@@ -1,0 +1,42 @@
+======================================================================
+训练模式：frozen
+epochs=3, batch_size=32, lr=0.001, max_len=256, seed=42
+使用 GPU：NVIDIA GeForce RTX 4060 Laptop GPU（显存 8.0 GB）
+PyTorch 2.4.1+cu121 | CUDA available=True
+预训练模型：distilbert-base-uncased
+数据准备完成：train=20000, val=4902，用时 20s
+可训练参数：1,538
+
+Epoch 1/3
+    epoch 1 step 100/625 | loss 0.6643 | acc 0.6172
+    epoch 1 step 200/625 | loss 0.6110 | acc 0.6914
+    epoch 1 step 300/625 | loss 0.5653 | acc 0.7303
+    epoch 1 step 400/625 | loss 0.5336 | acc 0.7498
+    epoch 1 step 500/625 | loss 0.5115 | acc 0.7632
+    epoch 1 step 600/625 | loss 0.4917 | acc 0.7751
+  train loss 0.4873 | train acc 0.7775 | val loss 0.3973 | val acc 0.8258 | val F1 0.8202 | 44s
+  [保存] 目前最佳模型：E:\自然语言处理\课程设计_实验一_预训练微调\outputs\checkpoints\frozen_best.pt（val F1=0.8202）
+
+Epoch 2/3
+    epoch 2 step 100/625 | loss 0.4058 | acc 0.8175
+    epoch 2 step 200/625 | loss 0.3975 | acc 0.8258
+    epoch 2 step 300/625 | loss 0.3906 | acc 0.8300
+    epoch 2 step 400/625 | loss 0.3915 | acc 0.8291
+    epoch 2 step 500/625 | loss 0.3893 | acc 0.8291
+    epoch 2 step 600/625 | loss 0.3874 | acc 0.8294
+  train loss 0.3863 | train acc 0.8300 | val loss 0.3788 | val acc 0.8329 | val F1 0.8267 | 44s
+  [保存] 目前最佳模型：E:\自然语言处理\课程设计_实验一_预训练微调\outputs\checkpoints\frozen_best.pt（val F1=0.8267）
+
+Epoch 3/3
+    epoch 3 step 100/625 | loss 0.3630 | acc 0.8459
+    epoch 3 step 200/625 | loss 0.3740 | acc 0.8387
+    epoch 3 step 300/625 | loss 0.3779 | acc 0.8371
+    epoch 3 step 400/625 | loss 0.3762 | acc 0.8382
+    epoch 3 step 500/625 | loss 0.3762 | acc 0.8388
+    epoch 3 step 600/625 | loss 0.3743 | acc 0.8393
+  train loss 0.3739 | train acc 0.8391 | val loss 0.3740 | val acc 0.8360 | val F1 0.8319 | 44s
+  [保存] 目前最佳模型：E:\自然语言处理\课程设计_实验一_预训练微调\outputs\checkpoints\frozen_best.pt（val F1=0.8319）
+
+训练完成：共 2m 13s，最佳 epoch=3，val F1=0.8319
+历史记录：E:\自然语言处理\课程设计_实验一_预训练微调\outputs\logs\frozen_history.json
+训练曲线：E:\自然语言处理\课程设计_实验一_预训练微调\outputs\figures\frozen_curves.png
